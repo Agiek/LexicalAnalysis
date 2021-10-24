@@ -24,6 +24,10 @@ namespace winrt::LexicalAnalysis::implementation
 
     void MainPage::ClickHandler(IInspectable const&, RoutedEventArgs const&)
     {
+
+        winrt::hstring hs = L"Hello World!";
+        winrt::hstring input = myInput().Text();
         myButton().Content(box_value(L"Clicked"));
+        myOutput().Text(input + hs);
     }
 }

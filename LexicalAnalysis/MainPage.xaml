@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="ClickHandler">Click Me</Button>
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="1080" Width="1920">
+        <Grid Width="1920" Height="1080">
+            <TextBox x:Name="myInput" HorizontalAlignment="Left" Margin="350,177,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="650" Width="550"/>
+            <TextBox x:Name="myOutput" HorizontalAlignment="Left" Margin="1000,177,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="650" Width="550"/>
+            <Button x:Name="myButton" Click="ClickHandler" Content="Click Me" Margin="913,897,0,0" VerticalAlignment="Top"/>
+        </Grid>
     </StackPanel>
 </Page>
