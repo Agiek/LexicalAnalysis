@@ -18,7 +18,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
@@ -57,10 +56,5 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
-    <Text Include="..\..\..\..\Documents\Tencent Files\939699895\FileRecv\src.txt" />
-    <Text Include="..\..\..\..\Desktop\op.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="LexicalAnalysis.rc" />
   </ItemGroup>
 </Project>
