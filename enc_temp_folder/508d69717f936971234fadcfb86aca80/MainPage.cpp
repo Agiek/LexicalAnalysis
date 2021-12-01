@@ -366,7 +366,14 @@ namespace winrt::LexicalAnalysis::implementation
 		cout << "    " << "  语句行数:" << fileAttr.statement_num << endl;
 		cout << "    " << "  单词个数:" << fileAttr.word_num << endl;
 		cout << "    " << "  字符个数:" << fileAttr.char_num << endl;
+		char outFile[40] = "op.txt";  
+		FILE* fp;
+		char str[] = "This is runoob.com";
 
+		fopen_s(&fp,outFile, "w");
+		fwrite(str, sizeof(str), 1, fp);
+
+		fclose(fp);
 		return 0;
 	}
 
