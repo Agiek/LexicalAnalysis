@@ -397,7 +397,7 @@ namespace winrt::LexicalAnalysis::implementation
 		std::string a= "asf";
 		main_prot();
 		myButton().Content(box_value(L"Clicked"));
-		myOutput().Text(hs);
+		//myOutput().Text(hs);
 	}
 
 
